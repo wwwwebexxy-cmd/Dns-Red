@@ -52,10 +52,10 @@ export const contentImages = {
 
 export const services: Service[] = [
   {
-    slug: "visa-services",
-    title: "Visa Services",
-    description: "Employment, family, residence, visit, investor, partner, Green and Golden Visa assistance.",
-    icon: BadgeCheck,
+    slug: "business-setup",
+    title: "Business Setup",
+    description: "Mainland, free zone, trade license, establishment and investor-related services.",
+    icon: Building2,
   },
   {
     slug: "pro-services",
@@ -64,10 +64,10 @@ export const services: Service[] = [
     icon: BriefcaseBusiness,
   },
   {
-    slug: "typing-documents",
-    title: "Typing & Documents",
-    description: "Professional typing, document clearing, government applications and documentation support.",
-    icon: FileText,
+    slug: "visa-services",
+    title: "Visa Services",
+    description: "Employment, family, residence, visit, investor, partner, Green and Golden Visa assistance.",
+    icon: BadgeCheck,
   },
   {
     slug: "mofa-attestation",
@@ -82,16 +82,16 @@ export const services: Service[] = [
     icon: Languages,
   },
   {
-    slug: "business-setup",
-    title: "Business Setup",
-    description: "Mainland, free zone, trade license, establishment and investor-related services.",
-    icon: Building2,
+    slug: "typing-documents",
+    title: "Typing & Documents",
+    description: "Professional typing, document clearing, government applications and documentation support.",
+    icon: FileText,
   },
 ];
 
 export const serviceDetails: Record<string, ServiceDetail> = {
   "visa-services": {
-    ...services[0],
+    ...services[2],
     title: "Visa Services in UAE",
     label: "VISA SERVICES",
     detail: "Employment, family, residence, visit, investor, partner, Green and Golden Visa assistance with accurate documentation and clear communication.",
@@ -119,7 +119,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
     ],
   },
   "business-setup": {
-    ...services[5],
+    ...services[0],
     title: "Business Setup in UAE",
     label: "BUSINESS SETUP",
     detail: "From mainland company formation to free zone setup, trade licenses and investor services, we help entrepreneurs and companies start and structure their business in the UAE with clear, professional guidance.",
