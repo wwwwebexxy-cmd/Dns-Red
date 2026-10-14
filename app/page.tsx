@@ -20,7 +20,7 @@ export default function HomePage() {
       <Hero
         home
         label="UAE Government & Business Services"
-        title={<>Your Trusted Partner<br />for UAE Government<br /><span className="gold">&amp; Business Services</span></>}
+        title={<>Your Trusted Partner<br />for UAE Government<br /><span className="gold hero-title-accent">&amp; Business Services</span></>}
         description="Professional Visa, PRO, Typing, Document Clearing, Attestation, Translation and Business Setup Services across the UAE."
       />
       <ServiceMarquee />
