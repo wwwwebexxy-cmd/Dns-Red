@@ -47,4 +47,5 @@ export function FaqSection({ questions, items, showCta = true }: { questions?: s
       </div>
     </section>
   );
+  
 }
