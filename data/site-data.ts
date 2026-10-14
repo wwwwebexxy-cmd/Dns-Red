@@ -36,12 +36,10 @@ export type ServiceDetail = Service & {
 
 export const navigation = [
   ["/", "Home"],
-  ["/about", "About Us"],
   ["/services", "Services"],
-  ["/visa-services", "Visa Services"],
-  ["/pro-services", "PRO Services"],
   ["/business-setup", "Business Setup"],
   ["/corporate-services", "Corporate Services"],
+  ["/about", "About Us"],
   ["/contact", "Contact"],
 ] as const;
 
