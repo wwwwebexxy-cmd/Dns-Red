@@ -2,18 +2,19 @@ import type { Metadata } from "next";
 import type { ServiceDetail } from "@/data/site-data";
 
 export const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL?.trim() || "https://advancedsolution.ae").replace(/\/+$/, "");
-export const siteName = "Advanced Solutions";
-export const siteAlternateName = "Advanced Solutions UAE";
-export const siteDescription = "Professional UAE visa, PRO, typing, attestation, translation and business setup services in Sharjah, Dubai and across the UAE.";
-export const businessPhone = "+971523466554";
+export const siteName = "DSN Groups";
+export const siteAlternateName = "DSN: Dream Starts Now";
+export const siteDescription = "DSN Groups provides professional UAE visa, PRO, typing, attestation, translation and business setup services in Sharjah and across the UAE.";
+export const businessPhone = "+971543145156";
 export const businessEmail = "advancedsolutionspro@gmail.com";
 export const whatsappUrl = `https://wa.me/${businessPhone.replace(/\D/g, "")}`;
 export const socialProfiles = [
-  "https://www.instagram.com/advanced_solutions_sharjah",
-  "https://www.facebook.com/share/1HfRk9VJ4i/",
+  "https://www.instagram.com/dsngroups",
+  "https://www.facebook.com/people/DSN-Groups/61594177463846/",
 ];
 export const siteKeywords = [
-  "Advanced Solutions UAE",
+  "DSN Groups",
+  "DSN Dream Starts Now",
   "UAE government services",
   "visa services UAE",
   "PRO services UAE",
@@ -27,24 +28,14 @@ export const siteKeywords = [
 
 export const businessLocations = [
   {
-    name: "Advanced Solutions Sharjah Office",
+    name: "DSN Groups Sharjah Office",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "P.O. Box 515354, King Abdulaziz Street, Al Bu Dani Shop No. 1, Near Mega Mall",
+      streetAddress: "Shams Business Centre, Media City Free Zone, Al Messaned",
       addressLocality: "Sharjah",
       addressCountry: "AE",
     },
-    map: "https://maps.google.com/?q=King+Abdulaziz+Street+Near+Mega+Mall+Sharjah",
-  },
-  {
-    name: "Advanced Solutions Dubai Office",
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: "Sheikha Mehra Building, M-Floor, 116, Office Number-1, Al Tawar, Al Qusais",
-      addressLocality: "Dubai",
-      addressCountry: "AE",
-    },
-    map: "https://maps.google.com/?q=Al+Tawar+Al+Qusais+Dubai",
+    map: "https://maps.google.com/?q=Shams+Business+Centre+Media+City+Free+Zone+Al+Messaned+Sharjah",
   },
 ] as const;
 

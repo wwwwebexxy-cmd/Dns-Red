@@ -314,7 +314,7 @@ export const testimonials = [
 ];
 
 export const generalFaqs = [
-  { q: "What services does Advanced Solutions provide?", a: "We assist with UAE visa services, PRO procedures, typing and document clearing, attestation, translation, corporate support and business setup." },
+  { q: "What services does DSN Groups provide?", a: "We assist with UAE visa services, PRO procedures, typing and document clearing, attestation, translation, corporate support and business setup." },
   { q: "Do you provide corporate PRO services?", a: "Yes. We support companies with employee visa processing, immigration procedures, government applications and recurring documentation." },
   { q: "Can you assist with family visas?", a: "Yes. We assist with spouse, children and parent residence visa applications, renewals, cancellations and related documentation." },
   { q: "Do you provide MOFA attestation assistance?", a: "Yes. We help review documents and guide you through the applicable attestation and submission requirements." },

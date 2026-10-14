@@ -28,9 +28,9 @@ export const metadata: Metadata = {
   category: "business services",
   alternates: { canonical: "/" },
   icons: {
-    icon: "/logo.webp",
-    shortcut: "/logo.webp",
-    apple: "/logo.webp",
+    icon: "/dsn-group-logo.webp",
+    shortcut: "/dsn-group-logo.webp",
+    apple: "/dsn-group-logo.webp",
   },
   openGraph: {
     type: "website",
@@ -69,7 +69,7 @@ const structuredData = [
     alternateName: siteAlternateName,
     url: siteUrl,
     image: `${siteUrl}/images/hero-uae-services.webp`,
-    logo: { "@type": "ImageObject", url: `${siteUrl}/logo.webp` },
+    logo: { "@type": "ImageObject", url: `${siteUrl}/dsn-group-logo.webp` },
     description: siteDescription,
     telephone: businessPhone,
     email: businessEmail,

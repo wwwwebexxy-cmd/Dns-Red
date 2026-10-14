@@ -9,7 +9,7 @@ import { pageMetadata } from "@/lib/site-meta";
 
 export const metadata = pageMetadata({
   title: "UAE Government & Business Services",
-  description: "Explore UAE visa, PRO, typing, document clearing, attestation, translation and business setup services from Advanced Solutions.",
+  description: "Explore UAE visa, PRO, typing, document clearing, attestation, translation and business setup services from DSN Groups.",
   path: "/services",
   keywords: ["UAE government services", "typing services UAE", "document clearing UAE", "business services Sharjah"],
 });

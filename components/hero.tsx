@@ -22,7 +22,7 @@ export function Hero({ label, title, description, home = false, image }: HeroPro
           {home ? (
             <div className="actions" style={{ justifyContent: "flex-start" }}>
               <Link className="btn gold hero-consult-cta" href="/contact"><span>Get a Free Consultation</span></Link>
-              <a className="btn green" href="https://wa.me/971523466554"><MessageCircle size={18} /> WhatsApp Us</a>
+              <a className="btn green" href="https://wa.me/971543145156"><MessageCircle size={18} /> WhatsApp Us</a>
             </div>
           ) : (
             <div className="crumb"><Link href="/">Home</Link><span className="crumb-separator">/</span><span>{label}</span></div>

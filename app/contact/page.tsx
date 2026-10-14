@@ -6,11 +6,11 @@ import { Clock } from "lucide-react";
 import { pageMetadata } from "@/lib/site-meta";
 
 export const metadata = pageMetadata({
-  title: "Contact Advanced Solutions UAE",
-  description: "Contact Advanced Solutions in Sharjah for UAE visa, PRO, typing, documentation and business setup support.",
+  title: "Contact DSN Groups UAE",
+  description: "Contact DSN Groups in Sharjah for UAE visa, PRO, typing, documentation and business setup support.",
   path: "/contact",
   image: "/images/hero-corporate-services.webp",
-  keywords: ["contact UAE government services", "Advanced Solutions Sharjah", "UAE visa WhatsApp"],
+  keywords: ["contact UAE government services", "DSN Groups Sharjah", "UAE visa WhatsApp"],
 });
 
 export default function ContactPage() {
@@ -23,9 +23,9 @@ export default function ContactPage() {
           <h2 className="title">Reach Us the Easy Way</h2>
           <p className="subtitle">No forms, no waiting. Message us on WhatsApp or call directly.</p>
           <div className="contact-cards">
-            <ContactCard type="whatsapp" title="WhatsApp" description="Fastest way to reach our team. Send your requirement and documents anytime." label="WhatsApp Us" href="https://wa.me/971523466554" />
-            <ContactCard type="phone" title="Phone" description="Call us directly on +971 52 346 6554 during working hours." label="Call Now" href="tel:+971523466554" />
-            <ContactCard type="office" title="Office" description="Sharjah, UAE — serving clients across all Emirates." label="Get Directions" href="https://maps.google.com/?q=Sharjah,UAE" />
+            <ContactCard type="whatsapp" title="WhatsApp" description="Fastest way to reach our team. Send your requirement and documents anytime." label="WhatsApp Us" href="https://wa.me/971543145156" />
+            <ContactCard type="phone" title="Phone" description="Call us directly on +971 54 314 5156 during working hours." label="Call Now" href="tel:+971543145156" />
+            <ContactCard type="office" title="Office" description="Shams Business Centre, Media City Free Zone, Al Messaned, Sharjah." label="Get Directions" href="https://maps.google.com/?q=Shams+Business+Centre+Media+City+Free+Zone+Al+Messaned+Sharjah" />
           </div>
           <div className="contact-note"><Clock size={16} className="gold" /> WhatsApp messages are welcome anytime — we respond as soon as possible.</div>
         </div>

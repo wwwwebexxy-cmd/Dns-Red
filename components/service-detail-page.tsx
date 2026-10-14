@@ -78,7 +78,7 @@ export function ServiceDetailPage({ slug }: { slug: string }) {
     ],
   };
   const faqs = service.faqs ?? defaultFaqs;
-  const whatsappHref = `https://wa.me/971523466554?text=${encodeURIComponent(`Hello Advanced Solutions, I am interested in ${service.title}. Please share the requirements and procedure.`)}`;
+  const whatsappHref = `https://wa.me/971543145156?text=${encodeURIComponent(`Hello DSN Groups, I am interested in ${service.title}. Please share the requirements and procedure.`)}`;
   const ctaLabel = service.slug === "business-setup"
     ? "Start Your Business"
     : service.slug === "visa-services"
