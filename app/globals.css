@@ -255,6 +255,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .contact-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin-top: 55px; }
 .contact-card { padding: 38px; border: 1px solid var(--line); border-radius: 16px; text-align: center; }
 .contact-card .icon { margin: 0 auto; }
+.contact-card .icon:hover, .contact-card:hover .icon { color: white; background: var(--gold); transform: translateY(-3px) scale(1.06); }
 .contact-card p { min-height: 76px; color: var(--muted); line-height: 1.6; }
 .contact-card-button { margin-top: 18px; border: 2px solid var(--navy); background: white; color: var(--navy); }
 .contact-card-button:hover { color: white; background: var(--navy); }
