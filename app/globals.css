@@ -187,6 +187,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .home-about .btn { margin-top: 18px; }
 .about-pillars { display: grid; gap: 14px; margin: 28px 0 0; padding: 0; list-style: none; }
 .about-pillars li { display: flex; align-items: center; gap: 10px; color: #000000b3; font-size: 15px; }
+.about-tagline { margin: 24px 0 0; color: var(--navy); font-family: "Montserrat", "Poppins", sans-serif; font-size: 16px; font-weight: 700; line-height: 1.5; }
 .pillar-check { width: 20px; height: 20px; display: grid; place-items: center; border-radius: 50%; color: var(--gold-2); background: #8B000026; font-size: 12px; font-weight: 800; }
 .corporate-banner { position: relative; overflow: hidden; padding: 88px 0; color: white; background: var(--navy); }
 .corporate-banner::after { content: ""; position: absolute; inset: 0; opacity: .18; pointer-events: none; background-image: radial-gradient(circle at 15% 85%, var(--gold), transparent 24%), radial-gradient(circle at 90% 10%, #ffffff, transparent 16%); }
