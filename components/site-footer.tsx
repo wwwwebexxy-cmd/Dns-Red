@@ -3,6 +3,7 @@ import { Mail, MessageCircle, Phone } from "lucide-react";
 import { SiFacebook, SiInstagram } from "react-icons/si";
 import { Brand } from "./brand";
 import { WhatsAppFloat } from "./whatsapp-float";
+import { businessEmail } from "@/lib/site-meta";
 
 export function SiteFooter() {
   return (
@@ -42,7 +43,7 @@ export function SiteFooter() {
               <div className="footer-contact-links">
                 <a href="tel:+971543145156"><Phone size={15} /> +971 54 314 5156</a>
                 <a href="https://wa.me/971543145156"><MessageCircle size={15} /> +971 54 314 5156</a>
-                <a href="mailto:advancedsolutionspro@gmail.com"><Mail size={15} /> advancedsolutionspro@gmail.com</a>
+                <a href={`mailto:${businessEmail}`}><Mail size={15} /> {businessEmail}</a>
               </div>
               <div className="footer-socials" aria-label="Social media links">
                 <a href="https://www.instagram.com/dsngroups?utm_source=ig_web_button_share_sheet&vrfl=ZDNlZDc0MzIxNw==" target="_blank" rel="noreferrer" aria-label="Instagram" title="Instagram">

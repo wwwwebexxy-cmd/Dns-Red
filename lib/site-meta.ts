@@ -6,7 +6,7 @@ export const siteName = "DSN Groups";
 export const siteAlternateName = "DSN: Dream Starts Now";
 export const siteDescription = "DSN Groups provides professional UAE visa, PRO, typing, attestation, translation and business setup services in Sharjah and across the UAE.";
 export const businessPhone = "+971543145156";
-export const businessEmail = "advancedsolutionspro@gmail.com";
+export const businessEmail = "info@dsngroups.com";
 export const whatsappUrl = `https://wa.me/${businessPhone.replace(/\D/g, "")}`;
 export const socialProfiles = [
   "https://www.instagram.com/dsngroups",
